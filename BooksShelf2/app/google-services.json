@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "560879327851",
+    "project_id": "books-shelf-c7d2c",
+    "storage_bucket": "books-shelf-c7d2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560879327851:android:e7e6bf2651124f0e6daf2e",
+        "android_client_info": {
+          "package_name": "com.tahaalangar.booksshelf"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2MqH-1TwCoEjvwyWo0eFf4ajqeTNl5tw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

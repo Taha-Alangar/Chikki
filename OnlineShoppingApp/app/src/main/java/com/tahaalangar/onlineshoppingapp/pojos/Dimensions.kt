@@ -1,0 +1,7 @@
+package com.tahaalangar.onlineshoppingapp.pojos
+
+data class Dimensions(
+    val depth: Double,
+    val height: Double,
+    val width: Double
+)

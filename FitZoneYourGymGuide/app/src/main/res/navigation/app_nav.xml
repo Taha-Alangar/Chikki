@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/exerciseFragment"
+        android:name="com.trycatchprojects.fitzoneyourgymguide.bottomfrags.ExerciseFragment"
+        android:label="fragment_exercise"
+        tools:layout="@layout/fragment_exercise" >
+        <action
+            android:id="@+id/action_exerciseFragment_to_exerciseDetailFragment"
+            app:destination="@id/exerciseDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.trycatchprojects.fitzoneyourgymguide.bottomfrags.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_exerciseFragment"
+            app:destination="@id/exerciseFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_exerciseDetailFragment"
+            app:destination="@id/exerciseDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dietFragment"
+        android:name="com.trycatchprojects.fitzoneyourgymguide.bottomfrags.DietFragment"
+        android:label="fragment_diet"
+        tools:layout="@layout/fragment_diet" >
+        <action
+            android:id="@+id/action_dietFragment_to_dietDetailFragment"
+            app:destination="@id/dietDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/privacyPolicyFragment"
+        android:name="com.trycatchprojects.fitzoneyourgymguide.drawerfrags.PrivacyPolicyFragment"
+        android:label="fragment_privacy_policy"
+        tools:layout="@layout/fragment_privacy_policy" />
+    <fragment
+        android:id="@+id/shareFragment"
+        android:name="com.trycatchprojects.fitzoneyourgymguide.drawerfrags.ShareFragment"
+        android:label="fragment_share"
+        tools:layout="@layout/fragment_share" />
+    <fragment
+        android:id="@+id/rateUsFragment"
+        android:name="com.trycatchprojects.fitzoneyourgymguide.drawerfrags.RateUsFragment"
+        android:label="fragment_rate_us"
+        tools:layout="@layout/fragment_rate_us" />
+    <fragment
+        android:id="@+id/dietDetailFragment"
+        android:name="com.trycatchprojects.fitzoneyourgymguide.fragments.DietDetailFragment"
+        android:label="fragment_diet_detail"
+        tools:layout="@layout/fragment_diet_detail" />
+    <fragment
+        android:id="@+id/exerciseDetailFragment"
+        android:name="com.trycatchprojects.fitzoneyourgymguide.fragments.ExerciseDetailFragment"
+        android:label="fragment_exercise_detail"
+        tools:layout="@layout/fragment_exercise_detail" />
+</navigation>
