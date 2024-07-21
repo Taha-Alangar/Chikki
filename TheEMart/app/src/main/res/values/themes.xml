@@ -1,9 +1,0 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.TheEMart" parent="Theme.Material3.Light.NoActionBar">
-        <!-- Customize your light theme here. -->
-         <item name="colorPrimary">@color/light_orange</item>
-    </style>
-
-    <style name="Theme.TheEMart" parent="Base.Theme.TheEMart" />
-</resources>
